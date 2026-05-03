@@ -1,0 +1,139 @@
+/* Mobile Fix for Dental Arts of Great Valley */
+@media (max-width: 748px) {
+
+  /* ---- GLOBAL ---- */
+  html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ---- NAV ---- */
+  nav {
+    padding: 10px 16px !important;
+  }
+  .nav-logo-main {
+    font-size: 18px !important;
+  }
+  .nav-logo-sub {
+    font-size: 10px !important;
+  }
+  .nav-links {
+    display: none !important;
+  }
+
+  /* ---- SECTIONS - fill full width ---- */
+  .section, .section-alt, .section-dark,
+  .section-alt-inner, .section-dark-inner,
+  .section-alt1, .section-alt-inner1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ---- TWO COL LAYOUTS ---- */
+  .two-col, .two-col.flip, .two-col1 {
+    display: block !important;
+    width: 100% !important;
+    direction: ltr !important;
+  }
+  .two-col > *, .two-col1 > * {
+    width: 100% !important;
+  }
+
+  /* ---- THREE COL CARDS ---- */
+  .three-col {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* ---- IMAGE BOXES ---- */
+  .img-box {
+    width: 100% !important;
+    height: 260px !important;
+  }
+  .img-box img {
+    width: 100% !important;
+    height: 260px !important;
+    object-fit: cover !important;
+  }
+
+  /* ---- BEFORE/AFTER LABELS - smaller ---- */
+  [style*="position:absolute;bottom"] {
+    font-size: 8px !important;
+    padding: 2px 6px !important;
+  }
+
+  /* ---- BEFORE/AFTER GALLERY - fill page ---- */
+  .gallery-card {
+    width: 100% !important;
+  }
+  .gallery-card img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+  }
+
+  /* ---- TESTIMONIAL/MAN PIC - smaller ---- */
+  .person-photo1 {
+    max-width: 160px !important;
+    width: 160px !important;
+  }
+
+  /* ---- BUILDING PIC - fit page ---- */
+  [alt="Our office"] {
+    width: 100% !important;
+    height: 220px !important;
+    object-fit: cover !important;
+  }
+
+  /* ---- ANESTHESIOLOGIST PIC ---- */
+  [alt="Dr. Alexander Zilber"] {
+    width: 100% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+  }
+
+  /* ---- FAMILY PIC ---- */
+  [alt*="family"], [alt*="Family"] {
+    width: 100% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+  }
+
+  /* ---- PAGE HEROES ---- */
+  .page-hero, .page-hero-light {
+    padding: 80px 16px 40px !important;
+    width: 100% !important;
+  }
+  .page-title, .page-title-dark {
+    font-size: 32px !important;
+  }
+  .section-title, .section-title-light {
+    font-size: 26px !important;
+  }
+
+  /* ---- FOOTER ---- */
+  footer {
+    flex-direction: column !important;
+    padding: 32px 16px !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  /* ---- INLINE GRID OVERRIDES ---- */
+  [style*="grid-template-columns"] {
+    display: block !important;
+    width: 100% !important;
+  }
+  [style*="grid-template-columns"] > div {
+    width: 100% !important;
+  }
+
+}
